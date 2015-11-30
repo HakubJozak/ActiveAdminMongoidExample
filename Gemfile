@@ -1,5 +1,18 @@
 source 'https://rubygems.org'
 
+gem 'kaminari'
+gem 'geocoder'
+gem 'valvat'
+gem 'carrierwave', require: 'carrierwave'
+gem 'carrierwave-mongoid', require: 'carrierwave/mongoid'
+gem 'mini_magick'
+gem 'rmagick'
+
+gem 'mongoid-autoinc', require: 'autoinc'
+gem 'mongoid_search'
+gem 'mongoid_taggable'
+gem 'mongoid_token'
+gem 'mongoid_slug'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
